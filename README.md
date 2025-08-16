@@ -13,8 +13,9 @@ The API endpoints documentation is available through **Swagger UI** at the follo
 
 ## Running the Project
 1. Clone this repository.
+2. Create the NotesDB in postgresql
 2. Configure your database credentials in `application.properties`.
-3. Restore the provided backup in the foldel `db/` on your postgresql database.
+3. Restore the provided backup or run the InitialScript in the folder `db/` on your local database.
 4. Run the project using:
    ```bash
    mvn spring-boot:run
